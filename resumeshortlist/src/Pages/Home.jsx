@@ -1,5 +1,9 @@
 import React from 'react'
 import Header from '../Components/Header'
+import Features from './Features'
+import About from './About'
+import HowItWorks from './Working'
+import Footer from '../Components/Footer'
 
 const Home = () => {
   return (
@@ -228,6 +232,13 @@ const Home = () => {
         </div>
       </section>
     </main>
+    <About />
+    <Features/>
+    <HowItWorks />
+
+
+    
+    <Footer/>
 
     
     </>
