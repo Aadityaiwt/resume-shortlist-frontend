@@ -4,10 +4,10 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { label: "Home", href: "#home" },
-    { label: "Features", href: "#features" },
-    { label: "How It Works", href: "#working" },
-    { label: "About", href: "#about" },
+    { label: "Home", href: "/" },
+    { label: "Features", href: "features" },
+    { label: "How It Works", href: "working" },
+    { label: "About", href: "about" },
   ];
 
   const closeMenu = () => {
@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <>
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-[#050816]/75 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b-2 border-white/10 bg-[#050816]">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-8">
         {/* Logo */}
         <a

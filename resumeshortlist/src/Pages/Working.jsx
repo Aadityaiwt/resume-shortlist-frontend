@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
 
 const steps = [
   {
@@ -21,6 +23,8 @@ const steps = [
 
 const HowItWorks = () => {
   return (
+    <>
+    <Header />
     <section
       id="how-it-works"
       className="relative border-t border-white/5 bg-[#050816] py-24"
@@ -73,6 +77,8 @@ const HowItWorks = () => {
         </ol>
       </div>
     </section>
+    <Footer />
+    </>
   );
 };
 

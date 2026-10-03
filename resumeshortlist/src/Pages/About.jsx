@@ -7,7 +7,7 @@ const tech = ["React", "JavaScript", "Node.js", "REST API", "Tailwind CSS"];
 const About = () => {
   return (
     <>
-
+      <Header />
       <section id="about" className="relative border-t border-white/5 bg-[#050816] py-24">
         <div className="mx-auto grid max-w-7xl gap-14 px-6 lg:grid-cols-2 lg:items-center lg:px-8">
           {/* Text */}
@@ -84,8 +84,7 @@ const About = () => {
           </div>
         </div>
       </section>
-
-      <Footer/>
+      <Footer />
     </>
   );
 };

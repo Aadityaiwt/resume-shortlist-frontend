@@ -183,9 +183,7 @@ const Features = () => {
         </div>
       </div>
     </section>
-
-<Footer />
-
+    <Footer />
     </>
   );
 };
