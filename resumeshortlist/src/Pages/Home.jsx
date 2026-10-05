@@ -214,7 +214,7 @@ const Home = () => {
               <div className="absolute -right-2 -top-7 z-20 hidden rounded-2xl border border-blue-400/20 bg-slate-900/90 px-4 py-3 shadow-2xl shadow-blue-500/10 backdrop-blur-xl sm:block">
                 <div className="flex items-center gap-3">
                   <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-blue-500/10">
-                    <span className="text-sm text-blue-400"></span>
+                    <span className="text-sm text-blue-400">AI</span>
                   </div>
 
                   <div>
@@ -484,7 +484,7 @@ const Home = () => {
                   <div className="flex items-center gap-2">
 
                     <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-violet-500/10">
-                      <span className="text-xs text-violet-400"></span>
+                      <span className="text-xs text-violet-400">AI</span>
                     </div>
 
                     <span className="text-[10px] font-semibold uppercase tracking-wider text-violet-300">
@@ -567,7 +567,7 @@ const Home = () => {
                 <div className="flex items-center gap-2">
 
                   <span className="flex h-6 w-6 items-center justify-center rounded-lg bg-emerald-400/10 text-[10px] text-emerald-400">
-                    
+                    AI
                   </span>
 
                   <div>
@@ -696,22 +696,22 @@ const Home = () => {
 
               {[
                 {
-                  icon: '',
+                  icon: 'AI',
                   title: 'Skills',
                   text: 'Identify technical and professional skills from resumes.',
                 },
                 {
-                  icon: '',
+                  icon: 'AI',
                   title: 'Experience',
                   text: 'Understand years of experience and relevant role history.',
                 },
                 {
-                  icon: '',
+                  icon: 'AI',
                   title: 'Qualifications',
                   text: 'Evaluate education, certifications, and qualifications.',
                 },
                 {
-                  icon: '',
+                  icon: 'AI',
                   title: 'AI Insights',
                   text: 'Generate a clear summary of candidate-role alignment.',
                 },
