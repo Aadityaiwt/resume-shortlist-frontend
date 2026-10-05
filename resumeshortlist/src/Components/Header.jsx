@@ -79,7 +79,7 @@ const Header = () => {
 
           <button
             type="button"
-            className="rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-slate-950 shadow-lg shadow-white/10 transition duration-300 hover:-translate-y-0.5 hover:bg-slate-100 hover:shadow-white/20"
+            className="rounded-lg bg-gradient-to-r from-cyan-400 via-blue-500 to-violet-600 px-5 py-2.5 text-sm font-semibold text-slate-950 shadow-lg shadow-white/10 transition duration-300 hover:-translate-y-0.5 hover:bg-slate-100 hover:shadow-white/20"
           >
             Get Started
           </button>

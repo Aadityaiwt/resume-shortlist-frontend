@@ -8,7 +8,10 @@ const About = () => {
   return (
     <>
       <Header />
-      <section id="about" className="relative border-t border-white/5 bg-[#050816] py-24">
+      <section
+        id="about"
+        className="relative border-t border-white/5 bg-[#050816] py-24"
+      >
         <div className="mx-auto grid max-w-7xl gap-14 px-6 lg:grid-cols-2 lg:items-center lg:px-8">
           {/* Text */}
           <div>
@@ -19,7 +22,7 @@ const About = () => {
               </span>
             </div>
 
-            <h2 className="text-4xl font-bold leading-[1.1] tracking-[-0.03em] text-white sm:text-5xl">
+            <h2 className="text-4xl sm:text-5xl font-bold leading-[1.1] tracking-[-0.03em] bg-gradient-to-r from-cyan-400 via-blue-500 to-violet-500 bg-clip-text text-transparent">
               Why we built ResumeAI
             </h2>
 
@@ -52,15 +55,21 @@ const About = () => {
             <dl className="mt-8 grid grid-cols-3 gap-4 border-t border-white/10 pt-6 text-center">
               <div>
                 <dt className="text-xs text-slate-500">Input</dt>
-                <dd className="mt-1 text-sm font-semibold text-white">PDF resumes</dd>
+                <dd className="mt-1 text-sm font-semibold text-white">
+                  PDF resumes
+                </dd>
               </div>
               <div>
                 <dt className="text-xs text-slate-500">Output</dt>
-                <dd className="mt-1 text-sm font-semibold text-white">Ranked list</dd>
+                <dd className="mt-1 text-sm font-semibold text-white">
+                  Ranked list
+                </dd>
               </div>
               <div>
                 <dt className="text-xs text-slate-500">Final decision</dt>
-                <dd className="mt-1 text-sm font-semibold text-emerald-400">You</dd>
+                <dd className="mt-1 text-sm font-semibold text-emerald-400">
+                  You
+                </dd>
               </div>
             </dl>
           </div>
@@ -71,14 +80,14 @@ const About = () => {
       <section className="bg-[#050816] pb-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="rounded-3xl border border-white/10 bg-white/[0.03] px-8 py-14 text-center">
-            <h2 className="text-3xl font-bold tracking-[-0.02em] text-white sm:text-4xl">
+            <h2 className="text-4xl sm:text-5xl font-bold leading-[1.1] tracking-[-0.03em] bg-gradient-to-r from-blue-400 via-violet-400 to-cyan-300 bg-clip-text text-transparent">
               Try it on your next batch of resumes
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-slate-400">
               Create an account, upload resumes, and see your first ranked
               shortlist.
             </p>
-            <button className="mt-8 rounded-xl bg-white px-7 py-3.5 text-sm font-semibold text-slate-950 transition duration-300 hover:-translate-y-1 hover:bg-slate-200">
+            <button className="mt-8 rounded-xl bg-gradient-to-r from-cyan-400 via-blue-500 to-violet-600 px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-violet-500/25 transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-xl hover:shadow-violet-500/30">
               Get Started
             </button>
           </div>
