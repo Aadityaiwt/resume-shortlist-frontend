@@ -1,8 +1,5 @@
 import React from 'react'
 import Header from '../Components/Header'
-import Features from './Features'
-import About from './About'
-import HowItWorks from './Working'
 import Footer from '../Components/Footer'
 
 const Home = () => {
@@ -157,22 +154,22 @@ const Home = () => {
               <div className="mt-10 flex flex-wrap gap-x-6 gap-y-3 text-xs text-slate-500">
 
                 <span className="flex items-center gap-2">
-                  <span className="text-emerald-400">?</span>
+                  <span className="text-emerald-400"></span>
                   AI Resume Parsing
                 </span>
 
                 <span className="flex items-center gap-2">
-                  <span className="text-emerald-400">?</span>
+                  <span className="text-emerald-400"></span>
                   Smart Skill Matching
                 </span>
 
                 <span className="flex items-center gap-2">
-                  <span className="text-emerald-400">?</span>
+                  <span className="text-emerald-400"></span>
                   Candidate Ranking
                 </span>
 
                 <span className="flex items-center gap-2">
-                  <span className="text-emerald-400">?</span>
+                  <span className="text-emerald-400"></span>
                   AI Insights
                 </span>
 
@@ -217,7 +214,7 @@ const Home = () => {
               <div className="absolute -right-2 -top-7 z-20 hidden rounded-2xl border border-blue-400/20 bg-slate-900/90 px-4 py-3 shadow-2xl shadow-blue-500/10 backdrop-blur-xl sm:block">
                 <div className="flex items-center gap-3">
                   <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-blue-500/10">
-                    <span className="text-sm text-blue-400">?</span>
+                    <span className="text-sm text-blue-400"></span>
                   </div>
 
                   <div>
@@ -434,7 +431,7 @@ const Home = () => {
                         Overall Match
                       </p>
 
-                      <span className="text-emerald-400">?</span>
+                      <span className="text-emerald-400"></span>
 
                     </div>
 
@@ -487,7 +484,7 @@ const Home = () => {
                   <div className="flex items-center gap-2">
 
                     <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-violet-500/10">
-                      <span className="text-xs text-violet-400">?</span>
+                      <span className="text-xs text-violet-400"></span>
                     </div>
 
                     <span className="text-[10px] font-semibold uppercase tracking-wider text-violet-300">
@@ -570,7 +567,7 @@ const Home = () => {
                 <div className="flex items-center gap-2">
 
                   <span className="flex h-6 w-6 items-center justify-center rounded-lg bg-emerald-400/10 text-[10px] text-emerald-400">
-                    ?
+                    
                   </span>
 
                   <div>
@@ -605,7 +602,7 @@ const Home = () => {
 
               <div className="flex items-center gap-4">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-500/10 text-blue-400">
-                  ?
+                  
                 </div>
 
                 <div>
@@ -620,7 +617,7 @@ const Home = () => {
 
               <div className="flex items-center gap-4">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-violet-500/10 text-violet-400">
-                  ?
+                  
                 </div>
 
                 <div>
@@ -635,7 +632,7 @@ const Home = () => {
 
               <div className="flex items-center gap-4">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-cyan-500/10 text-cyan-400">
-                  ?
+                  
                 </div>
 
                 <div>
@@ -650,7 +647,7 @@ const Home = () => {
 
               <div className="flex items-center gap-4">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-500/10 text-emerald-400">
-                  ?
+                  
                 </div>
 
                 <div>
@@ -699,22 +696,22 @@ const Home = () => {
 
               {[
                 {
-                  icon: '?',
+                  icon: '',
                   title: 'Skills',
                   text: 'Identify technical and professional skills from resumes.',
                 },
                 {
-                  icon: '?',
+                  icon: '',
                   title: 'Experience',
                   text: 'Understand years of experience and relevant role history.',
                 },
                 {
-                  icon: '?',
+                  icon: '',
                   title: 'Qualifications',
                   text: 'Evaluate education, certifications, and qualifications.',
                 },
                 {
-                  icon: '?',
+                  icon: '',
                   title: 'AI Insights',
                   text: 'Generate a clear summary of candidate-role alignment.',
                 },
@@ -760,7 +757,7 @@ const Home = () => {
             <div className="overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-blue-500/[0.08] via-violet-500/[0.06] to-transparent p-8 text-center sm:p-12 lg:p-16">
 
               <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-400/20 bg-blue-500/10 text-xl text-blue-400">
-                ?
+                
               </div>
 
               <p className="mt-6 text-xs font-semibold uppercase tracking-[0.2em] text-blue-400">
