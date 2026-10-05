@@ -71,7 +71,7 @@ const Home = () => {
           <div className="mx-auto grid min-h-[calc(100vh-80px)] max-w-7xl items-center gap-16 px-6 py-20 lg:grid-cols-2 lg:px-8 lg:py-24">
 
             {/* =====================================================
-                LEFT ï¿½ HERO CONTENT
+                LEFT — HERO CONTENT
             ===================================================== */}
             <div className="relative z-10 max-w-2xl">
 
@@ -203,7 +203,7 @@ const Home = () => {
             </div>
 
             {/* =====================================================
-                RIGHT ï¿½ AI PRODUCT VISUALIZATION
+                RIGHT — AI PRODUCT VISUALIZATION
             ===================================================== */}
             <div className="relative mx-auto w-full max-w-xl">
 
@@ -278,7 +278,7 @@ const Home = () => {
                         </p>
 
                         <p className="mt-1 text-xs text-slate-500">
-                          24 candidates ï¿½ 6 shortlisted
+                          24 candidates • 6 shortlisted
                         </p>
                       </div>
 
